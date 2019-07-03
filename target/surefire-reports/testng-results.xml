@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CITVerichace.MavenBuildCIT.AppTest" duration-ms="66373" started-at="2019-07-03T01:12:12Z" finished-at="2019-07-03T01:13:18Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="66373" started-at="2019-07-03T01:12:12Z" finished-at="2019-07-03T01:13:18Z">
+      <class name="CITVerichace.MavenBuildCIT.AppTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:CITVerichace.MavenBuildCIT.AppTest@735f7ae5]" name="setup" is-config="true" duration-ms="26831" started-at="2019-07-03T01:12:12Z" finished-at="2019-07-03T01:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="f()[pri:0, instance:CITVerichace.MavenBuildCIT.AppTest@735f7ae5]" name="f" duration-ms="10424" started-at="2019-07-03T01:12:39Z" finished-at="2019-07-03T01:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CITVerichace.MavenBuildCIT.AppTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="389" started-at="2019-07-03T01:12:49Z" finished-at="2019-07-03T01:12:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:CITVerichace.MavenBuildCIT.AppTest@735f7ae5]" name="setup" is-config="true" duration-ms="23686" started-at="2019-07-03T01:12:49Z" finished-at="2019-07-03T01:13:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="f2()[pri:0, instance:CITVerichace.MavenBuildCIT.AppTest@735f7ae5]" name="f2" duration-ms="4593" started-at="2019-07-03T01:13:13Z" finished-at="2019-07-03T01:13:18Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MHAMED-10', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\mhamed\eclipse-wor..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\mhamed\eclipse-wor..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceName: 2ac74d119805, noReset: false, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Redmi 5 Plus, deviceName: 2ac74d119805, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 2ac74d119805, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 76, takesScreenshot: true, viewportRect: {height: 1954, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d31a60e9-fa28-4568-8dba-785123e8617b
+*** Element info: {Using=xpath, value=//android.widget.ListView[@resource-id="android:id/select_dialog_listview"]//android.widget.CheckedTextView[@resource-id="android:id/text1" and @text="Traffic"]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MHAMED-10', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\mhamed\eclipse-wor..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\mhamed\eclipse-wor..., appActivity: io.appium.android.apis.ApiD..., appPackage: io.appium.android.apis, automationName: UiAutomator2, deviceName: 2ac74d119805, noReset: false, platformName: android, platformVersion: 8.1.0}, deviceApiLevel: 27, deviceManufacturer: Xiaomi, deviceModel: Redmi 5 Plus, deviceName: 2ac74d119805, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 2ac74d119805, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 8.1.0, statBarHeight: 76, takesScreenshot: true, viewportRect: {height: 1954, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d31a60e9-fa28-4568-8dba-785123e8617b
+*** Element info: {Using=xpath, value=//android.widget.ListView[@resource-id="android:id/select_dialog_listview"]//android.widget.CheckedTextView[@resource-id="android:id/text1" and @text="Traffic"]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at CITVerichace.MavenBuildCIT.AppTest.f2(AppTest.java:72)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:CITVerichace.MavenBuildCIT.AppTest@735f7ae5]" name="tearDown" is-config="true" duration-ms="387" started-at="2019-07-03T01:13:18Z" finished-at="2019-07-03T01:13:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- CITVerichace.MavenBuildCIT.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- CITVerichace.MavenBuildCIT.AppTest -->
+</testng-results>
